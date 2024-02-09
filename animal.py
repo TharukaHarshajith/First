@@ -1,5 +1,5 @@
 import sys
-def cat():
+def dog():
     print('Meow')
 def default():
     print('Hello')
@@ -9,6 +9,7 @@ def main():
         cat()
     else:
         default()
+
 
 if __name__ == '__main__':
     main()
